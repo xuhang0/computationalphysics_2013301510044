@@ -58,8 +58,8 @@ dv较小时停止程序。经过计算得出end_t = log(10000) / b，即在时�
 
 ####数值解误差
 
-*[errorAnalysis_1](./Resource/errorAnalysis_1.txt)<br>
-*[errorAnalysis_2](./Resource/errorAnalysis_2.txt)<br>
+* [errorAnalysis_1](./Resource/errorAnalysis_1.txt)<br>
+* [errorAnalysis_2](./Resource/errorAnalysis_2.txt)<br>
 对比图像可以看出，误差值与斜率呈正相关，这是因为在斜率大的地方dv的偏差要比斜率小的地方大，若缩小dt的值则会造成计算次数过多而影响性能。
 
 ##结论
