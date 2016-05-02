@@ -30,8 +30,7 @@ $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
 
-其中$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)为初速度。
+其中V<sub>0</sub>为初速度。
 
 ###方程的近似解
 
@@ -49,17 +48,18 @@ dv较小时停止程序。经过计算得出end_t = log(10000) / b，即在时�
 ###结果分析
 ####数值解结果
 
-    当a = 10，b = 0.1，v(0) = 0 m/s时，结果如图所示 
+当a = 10，b = 0.1，v(0) = 0 m/s时，结果如图所示 
 
-    当a = 10，b = 0.1，v(0) = 1000 m/s时，结果如图所示 
+当a = 10，b = 0.1，v(0) = 1000 m/s时，结果如图所示 
 
-        从图中可以看出，当时单调递减，反则单调递增，且v都趋近于常数，这与解析解的结果是一致的。
+从图中可以看出，当时单调递减，反则单调递增，且v都趋近于常数，这与解析解的结果是一致的。
 
 ####数值解误差
 
-![errorAnalysis_1](https://github.com/xuhang0/computationalphysics_2013301510044/blob/master/chapter1/Resource/errorAnalysis_1.txt)
+![errorAnalysis_1](./Resource/errorAnalysis_1.txt)
+
 ![errorAnalysis_2](./Resource/errorAnalysis_2.txt)
-    对比图像可以看出，误差值与斜率呈正相关，这是因为在斜率大的地方dv的偏差要比斜率小的地方大，若缩小dt的值则会造成计算次数过多而影响性能。
+对比图像可以看出，误差值与斜率呈正相关，这是因为在斜率大的地方dv的偏差要比斜率小的地方大，若缩小dt的值则会造成计算次数过多而影响性能。
 
 ##结论
 
