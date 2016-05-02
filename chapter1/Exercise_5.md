@@ -11,7 +11,10 @@
 
 考虑物体低速情况下在有空气阻力下运动，它的运动方程可以用以下公式描述
 
-\frac{dv}{dt}=a-bv\tag{1}
+<img src="http://www.forkosh.com/mathtex.cgi? \frac{dv}{dt}=a-bv\tag{1} ">
+
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
+
 
 其中a是加速度，b是阻力的系数（b>0），当b=0时物体为匀加速运动。这里只考虑低速的近似情况，实际上用这个公式描述是有误差的。
 
