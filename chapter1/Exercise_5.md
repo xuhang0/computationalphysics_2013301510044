@@ -11,9 +11,7 @@
 
 考虑物体低速情况下在有空气阻力下运动，它的运动方程可以用以下公式描述
 
-<img src="http://www.forkosh.com/mathtex.cgi? \frac{dv}{dt}=a-bv\tag{1} ">
-
-<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
+![](./Resource/e5_1.png)
 
 
 其中a是加速度，b是阻力的系数（b>0），当b=0时物体为匀加速运动。这里只考虑低速的近似情况，实际上用这个公式描述是有误差的。
@@ -26,12 +24,12 @@
 
 利用常数变易法可解得（1）式解得形式为
 
-v=ce^{-bt}+\frac{a}{b}\tag{2}
+![](./Resource/e5_2.png)
 
 
 其中c为待定系数。因为初速度是已知量，于是代入替换c可得
 
-v=(v_0-\frac{a}{b})e^{-bt}+\frac{a}{b}\tag{3}
+![](./Resource/e5_3.png)
 
 其中V<sub>0</sub>为初速度。
 
@@ -39,7 +37,7 @@ v=(v_0-\frac{a}{b})e^{-bt}+\frac{a}{b}\tag{3}
 
 公式（1）还可以写成
 
-v(t+dt)=v(t)+(a-bv(t))dt\tag{4}
+![](./Resource/e5_4.png)
 
 若取dt为某一足够小的近似值，当已知N的初值N(t0)后多次迭代，便可得到之后所有的数值近似解。 
 
